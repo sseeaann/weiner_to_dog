@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="description" content="weiner-to-dog">
+		<title>Weiner To Dog</title>
+		<link rel="stylesheet" type="text/css" href="weiner-to-dog.css">
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).on('click', 'img', function(){
+				var src = $(this).attr('src');
+				var alt = $(this).attr('data-alt-src');
+
+				$(this).attr('src', alt);
+				$(this).attr('data-alt-src', src);
+				});
+		</script>
+	</head>
+	<body>
+		<div class="SliceD1">
+			<img src="Dachshund-slice1.jpg" data-alt-src="weiner-slice1.jpg">
+		</div>
+		<div class="SliceD2">
+			<img src="Dachshund-slice2.jpg" data-alt-src="weiner-slice2.jpg">
+		</div>
+		<div class="SliceD3">
+			<img src="Dachshund-slice3.jpg" data-alt-src="weiner-slice3.jpg">
+		</div>
+		<div class="SliceD4">
+			<img src="Dachshund-slice4.jpg" data-alt-src="weiner-slice4.jpg">
+		</div>
+		<div class="SliceD5">
+			<img src="Dachshund-slice5.jpg" data-alt-src="weiner-slice5.jpg">
+		</div>
+	</body>
+</html>

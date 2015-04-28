@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	width: 100px;
+	height: 400px;
+}
+
+.SliceD1 {
+	display: inline-block;
+}
+
+.SliceD2 {
+	display: inline-block;
+}
+
+.SliceD3 {
+	display: inline-block;
+}
+
+.SliceD4 {
+	display: inline-block;
+}
+
+.SliceD5 {
+	display: inline-block;
+}
